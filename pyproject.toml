@@ -9,6 +9,7 @@ python = ">=3.11,<3.14"
 requests = "^2.32"
 python-dotenv = "^1.0"
 faker = "^30.0"
+brotlicffi = "^1.2.0.0"
 
 [tool.poetry.group.dev.dependencies]
 pytest = "^8.3"
@@ -23,3 +24,4 @@ testpaths = ["tests"]
 addopts = "--html=reports/report.html --self-contained-html"
 log_cli = true
 log_cli_level = "INFO"
+pythonpath = ["."]
